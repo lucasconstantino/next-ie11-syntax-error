@@ -4,7 +4,7 @@ When running `next dev` command (alias `next`), babel is not transpiling some sp
 
 It is important to note that it does not occur when we run `next build` followed by `next start`
 
-The lines of code which are not transpiling on a fresh install of Next.js are this:
+The lines of code which are not transpiling on a fresh install of Next.js are these:
 
 `node_modules/next/node_modules/strip-ansi/index.js:4`:
 ```
