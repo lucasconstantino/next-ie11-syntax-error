@@ -1,5 +1,7 @@
 # [Next.js](https://github.com/zeit/next.js) IE11 syntax error reproduction
 
+> See the original issue here: [zeit/next.js#3330](https://github.com/zeit/next.js/issues/3330)
+
 When running `next dev` command (alias `next`), babel is not transpiling some specific arrow functions, causing a `Syntax error` on any browser which does not implement arrow functions.
 
 It is important to note that it does not occur when we run `next build` followed by `next start`
